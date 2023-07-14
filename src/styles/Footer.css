@@ -1,0 +1,129 @@
+.footer {
+    
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.secContainer {
+      background-color: rgb(228, 213, 213); 
+      display: flex;
+}
+
+.logoDiv {
+    margin: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.icons {
+   
+    height: 25vh;
+}
+
+.social-flex {
+    max-width: 1000px;
+    width: 500px;
+    display: flex;
+    margin: 20px;
+    padding-top: 50px;
+    padding-left: 60px;
+}
+
+.iconOne {
+    max-width: 500px;
+    width: 70px;
+    height: 70px;
+}
+
+.iconTwo {
+    max-width: 500px;
+    width: 70px;
+    height: 70px;
+}
+
+.iconThree {
+    max-width: 500px;
+    width: 70px;
+    height: 70px;
+}
+
+.facebook {
+    height: 70px;
+    width: 60%;
+    cursor: pointer;
+}
+
+.instagram {
+    height: 70px;
+    width: 70%;
+    cursor: pointer;
+}
+
+.twitter {
+    height: 70px;
+    width: 70%;
+    cursor: pointer;
+}
+
+.footerLinks {
+     max-width: 1000px;
+     width: 500px;
+     display: grid;
+     margin: 60px;
+
+}
+
+.linkTitle {
+    font: bold;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.phone {
+    text-decoration: none;
+    color: rgb(58, 55, 55);
+    cursor: pointer;
+}
+
+.email {
+    text-decoration: none;
+    color: rgb(58, 55, 55);
+    cursor: pointer;
+}
+
+.email:hover {
+    color: rgb(61, 55, 55);
+}
+
+.logo-content {
+    max-width: 1000px;
+    width: 500px;
+}
+
+.indlogo {
+    margin: 20px;
+}
+
+.sab-footer-below {
+    display: flex;
+}
+.sab-footer-copyright {
+    padding-left: 20px;
+    width: 50%;
+    box-sizing: border-box;
+    color: rgb(129, 118, 118);
+    line-height: 1;
+    font-weight: 600;
+}
+
+.condition {
+    padding-left: 450px;
+    width: 100%;
+    padding-right: 20px;
+    box-sizing: border-box;
+    color: rgb(129, 118, 118);
+    line-height: 1;
+    font-weight: 600;
+}

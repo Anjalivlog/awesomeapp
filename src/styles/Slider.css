@@ -1,0 +1,124 @@
+.slider {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 450px;
+    height: 540px;
+    /* border-radius: 10px; */
+}
+
+.right_arrow {
+    position: absolute;
+    top: 50%;
+    /* right: 10px; */
+    right: 50px;
+    font-size: 2rem;
+    color: #302d2d;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.left_arrow {
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 2rem;
+    color: #302d2d;
+    z-index: 10;
+    cursor: pointer;
+    user-select: none;
+}
+
+.slide {
+    opacity: 1;
+    transition-duration: 2s ease;
+}
+
+.slide.active {
+    opacity: 1;
+    transition-duration: scale(10);
+}
+
+.description_container {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 20px;
+
+}
+
+.description_content {
+    display: grid;
+    grid-template-columns: auto auto;
+    
+}
+
+.description_slider {
+    margin: 5px;
+    height: 100%;
+}
+
+.description_text {
+    height: 100px;
+    margin: 70px;
+    margin-top: 60px;
+    line-height: 2;
+}
+
+.heading {
+    font-size: x-large;
+    color: rgb(109, 99, 99);
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.price {
+    font-size: larger;
+    padding-left: 550px;
+    color: rgb(109, 99, 99);
+    font-weight: 700;
+    padding-right: 0px;
+}
+
+.description_para {
+     padding-top: 40px;
+     padding-left: 10px;
+     padding-right: 20px;
+}
+
+.information {
+    font-size: xx-large;
+    font-weight: bold;
+    color: rgb(69, 65, 65);
+}
+
+.tables {
+    margin-left: 10px;
+}
+
+table {
+    width: 100%;
+    height: 250px;
+    border: 0;
+    border-top: 1px dotted rgba(0,0,0,.1);
+    margin: 20px;
+}
+
+td {
+    border-top: 1px dotted rgba(0,0,0,.1);
+    color: rgb(82, 80, 80);
+}
+
+.row-even {
+    background-color: white; /* Change this to the desired color for even rows */
+  }
+  
+  .row-odd {
+    background-color: rgb(254, 252, 252); /* Change this to the desired color for odd rows */
+  }
+

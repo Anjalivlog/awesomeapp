@@ -1,0 +1,52 @@
+.family-container {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.family-together {
+    max-width: 2000px;
+    width: 1500px;
+    
+}
+
+.family-image {
+    box-shadow: 10px 10px 0px rgba(237,235,235,0.8);
+    display: block;
+    height: 70vh;
+    width: 100%;
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+   
+    
+}
+.family-content {
+    color: rgb(89, 87, 87);
+    text-decoration: none;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 40px;
+    margin: 8px;
+    font-size: medium;
+}
+.family-contents {
+        line-height: 1.8;
+        font-size: small;
+        padding-right: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+    .family-container {
+        max-width: 500px;
+        align-items: center;
+        padding-top: 180px;
+        padding-left: 20px;
+        padding-right: 20px;
+        flex-direction: column;
+
+    }
+    
+        
+    }
+

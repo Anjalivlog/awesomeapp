@@ -1,0 +1,85 @@
+.bottom {
+    background-image: url(https://images.unsplash.com/photo-1475783006851-1d68dd683eff?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8aG9tZSUyMGxpZ2h0aW5nfGVufDB8fDB8fHww&w=1000&q=80.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: cover;
+    z-index: 0;
+    opacity: 0.9;
+    height: 80vh;
+    
+  }
+
+
+.bottom-section {
+    padding-top: 100px;
+    padding-right: 30px;
+    padding-bottom: 80px;
+    padding-left: 30px;
+    max-width: 1700px;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 1;
+    position: relative;
+}
+
+.bottom-heading {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 15px;
+    font-family: Libre Baskerville, serif;
+    font-weight: 400;
+    text-transform: none;
+}
+
+.bottom-paragraph {
+    text-align: center;
+    font-size: 19px;
+    margin-bottom: 0;
+    color: white;
+    font-family: Raleway, sans-serif;
+    font-weight: 100;
+    text-transform: none;
+}
+
+.submit-main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    text-align: center;
+    box-sizing: inherit;
+    padding-bottom: 250px;
+}
+
+.submit-sub-main {
+    box-sizing: inherit;
+    text-align: center;
+}
+
+
+.input-main {
+  
+    flex-direction: row;
+    font-size: 17px;
+
+}
+
+.input-one {
+    height: 8vh;
+    width: 20%;
+    padding-right: 10px;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 4px;
+
+}
+
+.input-two {
+    height: 8vh;
+    width: 5%;
+    font-family: Raleway, sans-serif;
+    letter-spacing: 4px;
+    font-weight: bold;
+    cursor: pointer;
+}
